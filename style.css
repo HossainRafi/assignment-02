@@ -1,0 +1,50 @@
+/* Reset & Common Design Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    width: 120rem;
+    max-width: 98%;
+    margin: auto;
+    background-color: rgb(167, 162, 157);
+}
+/* Reset & Common Design End */
+
+
+/* Header Design Starts Here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-height: 10vh;
+}
+#header-text{
+    font-size: 2rem;
+    margin: .5rem 1rem;
+    /* font family */
+}
+nav ul{
+    margin: .5rem 1rem;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin: 1.3rem .8rem;
+    padding: .4rem .9rem;
+    font-size: 2rem;
+    color: black;
+}
+nav ul li a:last-child{margin-right: 0;}
+/* Header Design Ends Here */
