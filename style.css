@@ -30,7 +30,6 @@ RESET AND COMMON DESIGN START
 ============================= */
 .banner{
     display: flex;
-    height: 100vh;
     margin-top: 1rem;
 }
 .banner-left{
@@ -196,6 +195,7 @@ PRODUCT SECTION DESIGN END
 @media only screen and (max-width: 688px) {
     body{
         max-width: 98%;
+        /* height: auto; */
     }
     .banner{
         flex-direction: column;
