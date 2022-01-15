@@ -22,47 +22,6 @@ body{
     /* background-color: rgb(167, 162, 157); */
 }
 /* ==========================
-RESET AND COMMON DESIGN END
-============================= */
-
-
-/* ==========================
-    HEADER DESIGN START
-============================= */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 10vh;
-    margin-bottom: 2.5rem;
-}
-#header-text{
-    color: #46B2E0;
-    font-size: 4.5rem;
-    margin: .2rem 1rem;
-    font-weight: 700;
-    font-family: 'Kurale', serif;
-}
-nav ul{
-    margin: .2rem 1rem;
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul li a{
-    margin: 1.3rem .8rem;
-    padding: .4rem .9rem;
-    font-family: 'Kurale', serif;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #46B2E0;
-}
-nav ul li a:last-child{margin-right: 0;}
-/* ==========================
-    HEADER DESIGN END
-============================= */
-
-/* ==========================
     MAIN SECTION DESIGN START
 ============================= */
 .banner{
@@ -234,12 +193,6 @@ PRODUCT SECTION DESIGN END
     body{
         max-width: 98%;
     }
-    header{
-        flex-direction: column;
-    }
-    nav ul li{
-        display: block;
-    }
     .banner{
         flex-direction: column;
     }
@@ -259,7 +212,7 @@ PRODUCT SECTION DESIGN END
 /* ==========================
     MEDIA QUERIE FOR TABLET
 ============================= */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     .sub-container{
         grid-template-columns: 1fr 1fr;
         width: 90%;
