@@ -250,9 +250,12 @@ PRODUCT SECTION DESIGN END
     .banner{
         flex-direction: column;
     }
+    .section-title{
+        margin: 2rem 0;
+    }
     .sub-container{
         grid-template-columns: 1fr;
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
     }
     .button-right{
