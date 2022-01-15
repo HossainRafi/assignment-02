@@ -225,3 +225,34 @@ PRODUCT SECTION DESIGN END
 /* ==========================
         FOOTER DESIGN END
 ============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 688px) {
+    header{
+        flex-direction: column;
+    }
+    nav ul li{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .sub-container{
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .button-right{
+        text-align: center;
+    }
+}
