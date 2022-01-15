@@ -1,4 +1,6 @@
-/* Reset & Common Design Start */
+/* ==========================
+RESET AND COMMON DESIGN START
+============================= */
 *{
     margin: 0;
     padding: 0;
@@ -16,26 +18,33 @@ body{
     width: 120rem;
     max-width: 98%;
     margin: auto;
-    background-color: rgb(167, 162, 157);
+    font-family: 'Raleway', sans-serif;
+    /* background-color: rgb(167, 162, 157); */
 }
-/* Reset & Common Design End */
+/* ==========================
+RESET AND COMMON DESIGN END
+============================= */
 
 
-/* Header Design Starts Here */
+/* ==========================
+    HEADER DESIGN START
+============================= */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    max-height: 10vh;
+    min-height: 10vh;
+    margin-bottom: 2.5rem;
 }
 #header-text{
-    font-size: 2rem;
-    margin: .5rem 1rem;
-    /* font family */
+    color: #46B2E0;
+    font-size: 4.5rem;
+    margin: .2rem 1rem;
+    font-weight: 700;
+    font-family: 'Kurale', serif;
 }
 nav ul{
-    margin: .5rem 1rem;
+    margin: .2rem 1rem;
 }
 nav ul li{
     display: inline-block;
@@ -43,8 +52,295 @@ nav ul li{
 nav ul li a{
     margin: 1.3rem .8rem;
     padding: .4rem .9rem;
+    font-family: 'Kurale', serif;
     font-size: 2rem;
-    color: black;
+    font-weight: 600;
+    color: #46B2E0;
 }
 nav ul li a:last-child{margin-right: 0;}
-/* Header Design Ends Here */
+/* ==========================
+    HEADER DESIGN END
+============================= */
+
+/* ==========================
+    MAIN SECTION DESIGN START
+============================= */
+.banner{
+    display: flex;
+    height: 90vh;
+}
+.banner-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+.banner-title{
+    font-family: 'Kurale', serif;
+    font-size: 4.5rem;
+    color: #46B2E0;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.banner-title::before{
+    content: "Start Your Journey As Influencer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* color: #3498db;
+    animation: typing 1s linear; */
+    /* white-space: nowrap; */
+}
+/* @keyframes typing{
+    0%{
+        content: "S";
+    }
+    2%{
+        content: "t";
+    }
+    4%{
+        content: "a";
+    }
+    6%{
+        content: "r";
+    }
+    8%{
+        content: "t";
+    }
+    10%{
+        content: " Y";
+    }
+    12%{
+        content: "o";
+    }
+    14%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+    4%{
+        content: "a";
+    }
+} */
+.banner-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+.common-btn{
+    margin: 2.5rem 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: .5rem;
+    background-color: #46B2E0;
+    transition: all 0.7s;
+}
+.common-btn:hover{
+    background-color: #748fc9;
+    color: whitesmoke;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.banner-right img:hover{
+    transition: all .5s linear;
+    transform: scale(1.2);
+}
+/* ==========================
+    MAIN SECTION DESIGN END
+============================= */
+
+
+/* ==========================
+PRODUCT SECTION DESIGN START
+============================= */
+.container{
+    height: 90vh;
+    margin: 0 1rem;
+}
+.section-title{
+    text-align: center;
+    font-family: 'Kurale', serif;
+    font-size: 4.5rem;
+    color: #46B2E0;
+    font-weight: 600;
+    margin: 5rem 0;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.product{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem rgb(201, 201, 201);
+    margin-bottom: 2rem;
+}
+.product-image{
+    max-width: 95%;
+    margin: 1rem auto;
+}
+.product-info{
+    max-width: 95%;
+    margin: auto;
+}
+.name{
+    font-size: 2.5rem;
+    margin-bottom: .4rem;
+}
+.price{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.fa-star{
+    color: gold;
+    font-size: 1rem;
+}
+.rating-number{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.ship-info{
+    margin: .7rem 0;
+    font-size: 1.3rem;
+}
+.see-more{
+    font-size: 2rem;
+    margin: 3rem 0;
+    text-align: right;
+}
+/* ==========================
+PRODUCT SECTION DESIGN END
+============================= */
