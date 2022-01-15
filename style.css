@@ -19,8 +19,12 @@ body{
     max-width: 98%;
     margin: auto;
     font-family: 'Raleway', sans-serif;
-    /* background-color: rgb(167, 162, 157); */
 }
+/* ==========================
+RESET AND COMMON DESIGN START
+============================= */
+
+
 /* ==========================
     MAIN SECTION DESIGN START
 ============================= */
@@ -132,7 +136,6 @@ PRODUCT SECTION DESIGN START
     font-size: 1.3rem;
     margin: .7rem 0 1.3rem 1.5rem;
 }
-
 /* ==========================
 PRODUCT SECTION DESIGN END
 ============================= */
