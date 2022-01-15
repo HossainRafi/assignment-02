@@ -194,7 +194,7 @@ PRODUCT SECTION DESIGN END
 ============================= */
 @media only screen and (max-width: 688px) {
     body{
-        max-width: 98%;
+        max-width: 100%;
     }
     .banner{
         flex-direction: column;
