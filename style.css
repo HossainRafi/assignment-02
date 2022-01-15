@@ -121,8 +121,7 @@ nav ul li a:last-child{margin-right: 0;}
 PRODUCT SECTION DESIGN START
 ============================= */
 .container{
-    height: 90vh;
-    margin: 0 1rem;
+    margin: 1.5rem 1rem;
 }
 .section-title{
     text-align: center;
@@ -132,49 +131,48 @@ PRODUCT SECTION DESIGN START
     font-weight: 600;
     margin: 5rem 0;
 }
-.products{
+.sub-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2.5rem;
 }
-.product{
-    height: 42rem;
-    width: 30rem;
-    background-color: rgb(185, 110, 110);
-    border-radius: 1rem;
-    box-shadow: .5rem .5rem .5rem rgb(201, 201, 201);
-    margin-bottom: 2rem;
+.product-container{
+    background-color: whitesmoke;
+    border-radius: .5rem;
+
+    box-shadow: .5rem .5rem 1.5rem lightslategrey;
 }
-.product-image{
-    height: 25rem;
-    width: 40rem;
-    margin: 1rem auto;
+.product-image img{
+    width: 90%;
+    height: 20rem;
+    margin: 1.5rem;
+    border-radius: .5rem;
 }
-.product-info{
-    max-width: 95%;
-    margin: auto;
+.product-title{
+    font-size: 2.3rem;
+    margin: .5rem 1.5rem;
 }
-.name{
-    font-size: 2.5rem;
-    margin-bottom: .4rem;
+.product-price{
+    font-size: 1.8rem;
+    margin: .5rem 1.5rem;
 }
-.price{
-    font-size: 2rem;
-    margin-bottom: .5rem;
+.product-rating{
+    margin-left: 1.5rem;
 }
-.fa-star{
-    color: gold;
+.product-rating .fas{
     font-size: 1rem;
+    color: gold;
 }
-.rating-number{
-    margin-left: 1rem;
+.product-rating .rating-number{
+    font-size: 1.1rem;
+    margin-left: .7rem;
+    font-weight: 600;
+}
+.shipping-info{
     font-size: 1.3rem;
-    font-weight: 700;
+    margin: .7rem 0 1.3rem 1.5rem;
 }
-.ship-info{
-    margin: .7rem 0;
-    font-size: 1.3rem;
-}
+
 /* ==========================
 PRODUCT SECTION DESIGN END
 ============================= */
@@ -199,7 +197,7 @@ PRODUCT SECTION DESIGN END
 ============================= */
 .footer-container{
     min-height: 10vh;
-    background-color: #f1f2f6;
+    background-color: lightsteelblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
