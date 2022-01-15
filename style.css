@@ -227,16 +227,9 @@ PRODUCT SECTION DESIGN END
 ============================= */
 
 
-
-
-
-
-
-
-
-
-
-
+/* ==========================
+    MEDIA QUERIE FOR MOBILE
+============================= */
 @media only screen and (max-width: 688px) {
     body{
         max-width: 98%;
@@ -251,7 +244,7 @@ PRODUCT SECTION DESIGN END
         flex-direction: column;
     }
     .section-title{
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
     .sub-container{
         grid-template-columns: 1fr;
@@ -260,5 +253,16 @@ PRODUCT SECTION DESIGN END
     }
     .button-right{
         text-align: center;
+    }
+}
+
+/* ==========================
+    MEDIA QUERIE FOR TABLET
+============================= */
+@media only screen and (max-width: 992px) {
+    .sub-container{
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
     }
 }
